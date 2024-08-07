@@ -2,28 +2,20 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: rgb(255 237 213);
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border:  2px solid red;
-
+  border-radius: 12px;
 }
-
